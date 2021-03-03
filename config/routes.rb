@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
 
-  root to: 'products#index'
+  root to: 'products#index' #special string rail knows how to parse controller#action
+
+  
+  get '/about' => 'about#show'
+  # get '/about', to: 'about#show'
+  # resource :about, only: [:show], :controller => "about"
 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
