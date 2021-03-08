@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Product, type: :model do
   describe 'Validations' do
-    it "is valid with valid attributes" do
+    it "should successfully create a new product" do
       @category = Category.create(name: 'Clothing')
       @product = @category.products.create(name: 'hoodie', description: 'test', image: 'test', price_cents: 10000, quantity: 10)
       expect(@product).to be_valid
