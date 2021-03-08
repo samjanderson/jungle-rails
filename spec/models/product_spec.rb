@@ -6,7 +6,6 @@ RSpec.describe Product, type: :model do
       @category = Category.create(name: 'Clothing')
       @product = @category.products.create(name: 'hoodie', description: 'test', image: 'test', price_cents: 10000, quantity: 10)
       expect(@product).to be_valid
-      @product.errors.full_messages
     end
     it "is not valid without a name present" do
       @category = Category.create(name: 'Clothing')
