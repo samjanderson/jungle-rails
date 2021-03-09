@@ -23,6 +23,7 @@ RSpec.feature "Visitor goes from home page to product page by clicking on a prod
       #page.all('article.product')[1].click
       # page.find(:link, 'Details', href: '/products/9').click
       first('article.product').find_link('Details').click
+      # first('article.product').click_button('Details').click
       puts page.html
       # DEBUG
   

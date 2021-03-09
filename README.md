@@ -1,6 +1,15 @@
 # Jungle
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+Added features including:
+
+. login/signup with basic authentication
+. valid credentials in order for admin to be able to see the product, categories and dashboard pages
+. created an admin dashboard to display quantity of current products and categories
+. ability for admin to create new categories
+. products that have no inventory properly display a "sold out" icon
+
+Integrated Stripe for testing payment. Rspec and Capybara were used for unit and feature testing.
 
 
 ## Setup
