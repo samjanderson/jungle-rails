@@ -19,6 +19,7 @@ Integrated Stripe for testing payment. Rspec and Capybara were used for unit and
 !["Select A Product"](https://github.com/samjanderson/jungle-rails/blob/master/docs/single-product.png?raw=true)
 !["My Cart"](https://github.com/samjanderson/jungle-rails/blob/master/docs/my-cart.png?raw=true)
 !["Admin Categories"](https://github.com/samjanderson/jungle-rails/blob/master/docs/admin-categories.png?raw=true)
+!["Admin Products"](https://github.com/samjanderson/jungle-rails/blob/master/docs/admin-products.png?raw=true)
 
 
 
