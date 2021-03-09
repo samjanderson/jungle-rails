@@ -11,6 +11,16 @@ Added features including:
 
 Integrated Stripe for testing payment. Rspec and Capybara were used for unit and feature testing.
 
+## Screenshots
+
+
+
+!["Home Page"](https://github.com/samjanderson/jungle-rails/blob/master/docs/homepage.png?raw=true)
+!["Select A Product"](https://github.com/samjanderson/jungle-rails/blob/master/docs/single-product.png?raw=true)
+!["My Cart"](https://github.com/samjanderson/jungle-rails/blob/master/docs/my-cart.png?raw=true)
+!["Admin Categories"](https://github.com/samjanderson/jungle-rails/blob/master/docs/admin-categories.png?raw=true)
+
+
 
 ## Setup
 
